@@ -1,0 +1,12 @@
+#migrations {
+    background-color: #E7EFEF;
+    color:            #306375;
+    border:           solid 1px #849BA3;
+    padding:          10px;
+    margin-bottom:    10px;
+}
+
+#migrations-code {
+    margin-top:       10px;
+    margin-bottom:    10px;
+}

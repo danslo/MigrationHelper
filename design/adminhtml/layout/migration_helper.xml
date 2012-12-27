@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <reference name="content">
+            <block type="migration_helper/migrations"
+                   name="message.migration"
+                   template="migration_helper/migrations.phtml" />
+        </reference>
+        <reference name="head">
+            <action method="addCss">
+                <file>migration_helper.css</file>
+            </action>
+        </reference>
+    </default>
+</layout>
