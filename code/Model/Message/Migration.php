@@ -2,7 +2,7 @@
 
 /*
  * Copyright 2011 Daniel Sloof
- * http://www.rubick.nl/
+ * http://www.rubic.nl/
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@
 /**
  * Migration message stored in admin session.
  *
- * @author Daniel Sloof <daniel@rubick.nl>
+ * @author Daniel Sloof <daniel@rubic.nl>
  */
-class Rubick_MigrationHelper_Model_Message_Migration
+class Rubic_MigrationHelper_Model_Message_Migration
     extends Mage_Core_Model_Message_Abstract
 {
 

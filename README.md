@@ -12,7 +12,7 @@ Sounds cool! How do I install?
 Migration Helper is a [modman](https://github.com/colinmollenhour/modman) module.
 After installing modman you can easily deploy it:
 
-    ./modman clone Rubick_MigrationHelper https://github.com/danslo/MigrationHelper.git
+    ./modman clone Rubic_MigrationHelper https://github.com/danslo/MigrationHelper.git
 
 Clear cache and you are ready to go! Try saving something in the backend!
 

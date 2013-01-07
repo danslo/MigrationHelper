@@ -1,5 +1,5 @@
-bootstrap.xml                                app/etc/modules/Rubick_MigrationHelper.xml
-code                                         app/code/local/Rubick/MigrationHelper
+bootstrap.xml                                app/etc/modules/Rubic_MigrationHelper.xml
+code                                         app/code/local/Rubic/MigrationHelper
 design/adminhtml/layout/migration_helper.xml app/design/adminhtml/default/default/layout/migration_helper.xml
 design/adminhtml/template/migration_helper   app/design/adminhtml/default/default/template/migration_helper
 skin/adminhtml/migration_helper.css          skin/adminhtml/default/default/migration_helper.css

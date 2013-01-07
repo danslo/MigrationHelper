@@ -1,12 +1,12 @@
 <config>
    <modules>
-      <Rubick_MigrationHelper>
+      <Rubic_MigrationHelper>
          <active>true</active>
          <codePool>local</codePool>
          <version>0.0.1</version>
          <depends>
              <Mage_Core />
          </depends>
-      </Rubick_MigrationHelper>
+      </Rubic_MigrationHelper>
    </modules>
 </config>

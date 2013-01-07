@@ -2,7 +2,7 @@
 
 /*
  * Copyright 2011 Daniel Sloof
- * http://www.rubick.nl/
+ * http://www.rubic.nl/
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@
 /**
  * Observer that generates migrations and logs backend configuration changes.
  *
- * @author Daniel Sloof <daniel@rubick.nl>
+ * @author Daniel Sloof <daniel@rubic.nl>
  */
-class Rubick_MigrationHelper_Model_Observer
+class Rubic_MigrationHelper_Model_Observer
 {
 
     /**
@@ -34,7 +34,7 @@ class Rubick_MigrationHelper_Model_Observer
      * Entry point for the observer.
      *
      * @param Varien_Event_Observer $observer
-     * @return \Rubick_MigrationHelper_Model_Observer
+     * @return \Rubic_MigrationHelper_Model_Observer
      */
     public function configSaveAfter($observer)
     {
@@ -270,8 +270,8 @@ class Rubick_MigrationHelper_Model_Observer
     /**
      * Generates a migration for a specific migration message.
      *
-     * @param Rubick_MigrationHelper_Model_Message_Migration $message
-     * @return \Rubick_MigrationHelper_Model_Observer
+     * @param Rubic_MigrationHelper_Model_Message_Migration $message
+     * @return \Rubic_MigrationHelper_Model_Observer
      * @exception Mage_Exception
      */
     protected function _generateMigration($message)
@@ -317,7 +317,7 @@ class Rubick_MigrationHelper_Model_Observer
     /**
      * Creates a migration file for specific message and version.
      *
-     * @param Rubick_MigrationHelper_Model_Message_Migration $message
+     * @param Rubic_MigrationHelper_Model_Message_Migration $message
      * @param array $versionInfo
      * @return bool
      */

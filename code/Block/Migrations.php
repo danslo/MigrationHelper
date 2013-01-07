@@ -2,7 +2,7 @@
 
 /*
  * Copyright 2011 Daniel Sloof
- * http://www.rubick.nl/
+ * http://www.rubic.nl/
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@
 /**
  * Simple block that extracts migration messages from the admin session.
  *
- * @author Daniel Sloof <daniel@rubick.nl>
+ * @author Daniel Sloof <daniel@rubic.nl>
  */
-class Rubick_MigrationHelper_Block_Migrations
+class Rubic_MigrationHelper_Block_Migrations
     extends Mage_Adminhtml_Block_Template
 {
 
@@ -34,7 +34,7 @@ class Rubick_MigrationHelper_Block_Migrations
     public function getMigrationMessages()
     {
         return $this->getLayout()->getBlock('messages')->getMessageCollection()->getItems(
-            Rubick_MigrationHelper_Model_Message_Migration::MESSAGE_TYPE
+            Rubic_MigrationHelper_Model_Message_Migration::MESSAGE_TYPE
         );
     }
 }

@@ -3,17 +3,17 @@
     <global>
         <models>
             <migration_helper>
-                <class>Rubick_MigrationHelper_Model</class>
+                <class>Rubic_MigrationHelper_Model</class>
             </migration_helper>
         </models>
         <helpers>
             <migration_helper>
-                <class>Rubick_MigrationHelper_Helper</class>
+                <class>Rubic_MigrationHelper_Helper</class>
             </migration_helper>
         </helpers>
         <blocks>
             <migration_helper>
-                <class>Rubick_MigrationHelper_Block</class>
+                <class>Rubic_MigrationHelper_Block</class>
             </migration_helper>
         </blocks>
         <events>
@@ -30,7 +30,7 @@
         <resources>
             <migrations_setup>
                 <setup>
-                    <module>Rubick_MigrationHelper</module>
+                    <module>Rubic_MigrationHelper</module>
                 </setup>
             </migrations_setup>
         </resources>
@@ -48,7 +48,7 @@
         <dev>
             <migration_helper>
                 <generate_migrations>1</generate_migrations>
-                <migration_module>Rubick_MigrationHelper</migration_module>
+                <migration_module>Rubic_MigrationHelper</migration_module>
                 <migration_resource>migrations_setup</migration_resource>
             </migration_helper>
         </dev>
