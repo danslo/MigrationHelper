@@ -133,7 +133,7 @@ class Rubick_MigrationHelper_Model_Observer
      */
     protected function _doGenerateMigrations()
     {
-        return (bool)Mage::getStoreConfig('migration_helper/generate_migrations');
+        return Mage::getStoreConfigFlag('dev/migration_helper/generate_migrations');
     }
 
     /**
@@ -147,7 +147,7 @@ class Rubick_MigrationHelper_Model_Observer
      */
     protected function _getMigrationModuleName()
     {
-        return Mage::getStoreConfig('migration_helper/migration_module');
+        return Mage::getStoreConfig('dev/migration_helper/migration_module');
     }
 
     /**
@@ -157,7 +157,7 @@ class Rubick_MigrationHelper_Model_Observer
      */
     protected function _getMigrationModuleResource()
     {
-        return Mage::getStoreConfig('migration_helper/migration_resource');
+        return Mage::getStoreConfig('dev/migration_helper/migration_resource');
     }
 
     /**
